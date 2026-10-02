@@ -21,7 +21,7 @@
   var easeInOut = function (t) { return t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; };
   var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var finePointer = window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches;
-  var WA_NUMBER = '528112026054';
+  var WA_NUMBER = '528112056054';
 
   function safe(name, fn) {
     try { fn(); } catch (err) { if (window.console) console.warn('[ADC] módulo "' + name + '" falló:', err); }
